@@ -9,6 +9,5 @@ def exec_shell(cmd):
 		return proc.communicate()
 
 print exec_shell("git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle.vim");
-print exec_shell("cp molokai.vim ~/.vim/colors");
 print exec_shell("cp .vimrc ~/");
 print exec_shell("vim +PluginInstall +qall");

@@ -9,6 +9,9 @@ call vundle#begin()
 " 使用Vundle管理插件，必须
 Plugin 'gmarik/Vundle.vim'
 
+" colors
+Plugin 'tomasr/molokai'
+
 "
 " nerdtree
 Plugin 'scrooloose/nerdtree'
