@@ -46,13 +46,6 @@ if has("cscope")
         endif      
     endif
 endif
-" hight current line
-au WinLeave * set nocursorline nocursorcolumn
-au WinEnter * set cursorline cursorcolumn
-set cursorline cursorcolumn
-set ruler
-set showcmd
-set matchpairs+=<:>
 " NERD tree
 let NERDChristmasTree=0
 let NERDTreeWinSize=35
