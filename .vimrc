@@ -16,6 +16,7 @@ Plugin 'tomasr/molokai'
 " nerdtree
 Plugin 'scrooloose/nerdtree'
 "
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end() " 必须
 
